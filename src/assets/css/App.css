@@ -1,0 +1,71 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #d0d4ca;
+  border-radius: 5px;
+  margin: 10px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.mainCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.headerLink {
+  background-color: #d0d4ca;
+  color: grey;
+  font-weight: 800;
+  margin: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.headerLink:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: white;
+  opacity: 0.8;
+}
+.miktar {
+  position: absolute;
+  top: -7px;
+  right: 76px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+}
+
+.alink {
+  position: relative;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+}
+.headerRight {
+  height: 50px;
+  background-color: #f5eec8;
+  padding: 0 10px;
+  border-radius: 5px;
+}
